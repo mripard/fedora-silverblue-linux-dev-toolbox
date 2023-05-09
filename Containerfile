@@ -16,4 +16,5 @@ RUN dnf install -y \
 	make \
 	ncurses-devel \
 	openssl \
-	openssl-devel
+	openssl-devel \
+	vim-enhanced
