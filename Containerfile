@@ -5,6 +5,7 @@ FROM registry.fedoraproject.org/fedora-toolbox:${FEDORA_MAJOR_VERSION}
 RUN dnf install -y \
 	bison \
 	coccinelle \
+	cpio \
 	dtc \
 	elfutils-libelf-devel \
 	flex \
