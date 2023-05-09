@@ -11,6 +11,7 @@ RUN dnf install -y \
 	gcc \
 	gcc-aarch64-linux-gnu \
 	gcc-arm-linux-gnu \
+	gcc-c++ \
 	make \
 	ncurses-devel \
 	openssl-devel
