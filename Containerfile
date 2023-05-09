@@ -17,4 +17,6 @@ RUN dnf install -y \
 	ncurses-devel \
 	openssl \
 	openssl-devel \
+	qemu-system-aarch64 \
+	qemu-system-arm \
 	vim-enhanced
