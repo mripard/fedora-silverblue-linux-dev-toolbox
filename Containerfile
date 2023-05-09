@@ -14,4 +14,5 @@ RUN dnf install -y \
 	gcc-c++ \
 	make \
 	ncurses-devel \
+	openssl \
 	openssl-devel
