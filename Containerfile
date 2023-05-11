@@ -20,4 +20,5 @@ RUN dnf install -y \
 	openssl-devel \
 	qemu-system-aarch64 \
 	qemu-system-arm \
+	ripgrep \
 	vim-enhanced
