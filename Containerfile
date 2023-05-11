@@ -8,6 +8,7 @@ RUN dnf install -y \
 	cpio \
 	dtc \
 	elfutils-libelf-devel \
+	emacs \
 	flex \
 	gcc \
 	gcc-aarch64-linux-gnu \
