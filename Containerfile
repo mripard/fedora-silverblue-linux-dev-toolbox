@@ -14,7 +14,11 @@ RUN dnf install -y \
 	gcc-aarch64-linux-gnu \
 	gcc-arm-linux-gnu \
 	gcc-c++ \
+	git-absorb \
+	git-email \
+	git-filter-repo \
 	make \
+	msmtp \
 	ncurses-devel \
 	openssl \
 	openssl-devel \
