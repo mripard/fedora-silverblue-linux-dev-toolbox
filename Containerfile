@@ -24,6 +24,7 @@ RUN dnf install -y \
 	ncurses-devel \
 	openssl \
 	openssl-devel \
+	python-cryptography \
 	qemu-system-aarch64 \
 	qemu-system-arm \
 	ripgrep \
