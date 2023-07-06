@@ -8,6 +8,7 @@ RUN dnf install -y \
 	coccinelle \
 	cpio \
 	dtc \
+	dwarves \
 	elfutils-libelf-devel \
 	emacs \
 	flex \
