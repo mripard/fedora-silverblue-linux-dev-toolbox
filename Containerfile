@@ -28,4 +28,5 @@ RUN dnf install -y \
 	qemu-system-aarch64 \
 	qemu-system-arm \
 	ripgrep \
+	uboot-tools \
 	vim-enhanced
