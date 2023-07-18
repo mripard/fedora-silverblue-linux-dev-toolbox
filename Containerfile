@@ -26,8 +26,12 @@ RUN dnf install -y \
 	openssl \
 	openssl-devel \
 	python-cryptography \
+	python-devel \
+	python-jsonschema \
+	python-setuptools \
 	qemu-system-aarch64 \
 	qemu-system-arm \
 	ripgrep \
+	swig \
 	uboot-tools \
 	vim-enhanced
