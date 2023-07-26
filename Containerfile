@@ -10,6 +10,7 @@ RUN dnf install -y \
 	clang-devel \
 	coccinelle \
 	cpio \
+	dfu-util \
 	dtc \
 	dwarves \
 	elfutils-libelf-devel \
