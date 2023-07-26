@@ -23,6 +23,7 @@ RUN dnf install -y \
 	git-absorb \
 	git-email \
 	git-filter-repo \
+	lld \
 	make \
 	msmtp \
 	ncurses-devel \
