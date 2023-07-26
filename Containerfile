@@ -3,6 +3,8 @@ ARG FEDORA_MAJOR_VERSION=38
 FROM registry.fedoraproject.org/fedora-toolbox:${FEDORA_MAJOR_VERSION}
 
 RUN dnf install -y \
+	autoconf \
+	automake \
 	b4 \
 	bison \
 	clang-devel \
