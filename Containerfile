@@ -29,6 +29,7 @@ RUN dnf install -y \
 	ncurses-devel \
 	openssl \
 	openssl-devel \
+	picocom \
 	python-cryptography \
 	python-devel \
 	python-jsonschema \
