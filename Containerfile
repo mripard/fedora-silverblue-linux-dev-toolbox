@@ -1,4 +1,4 @@
-ARG FEDORA_MAJOR_VERSION=38
+ARG FEDORA_MAJOR_VERSION=39
 
 FROM registry.fedoraproject.org/fedora-toolbox:${FEDORA_MAJOR_VERSION}
 
