@@ -18,6 +18,7 @@ RUN dnf install -y \
 	code \
 	cpio \
 	dfu-util \
+	drm-utils \
 	dtc \
 	dwarves \
 	elfutils-libelf-devel \
