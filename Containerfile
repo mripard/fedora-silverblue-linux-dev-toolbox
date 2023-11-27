@@ -13,6 +13,7 @@ RUN dnf install -y \
 	b4 \
 	bison \
 	clang-devel \
+	cloc \
 	coccinelle \
 	code \
 	cpio \
