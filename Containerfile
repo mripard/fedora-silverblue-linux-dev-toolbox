@@ -6,7 +6,6 @@ RUN rpm --import https://packages.microsoft.com/keys/microsoft.asc
 
 COPY vscode.repo /etc/yum.repos.d/
 
-RUN dnf check-update
 RUN dnf install -y \
 	autoconf \
 	automake \
