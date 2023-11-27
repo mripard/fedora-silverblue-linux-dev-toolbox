@@ -21,6 +21,7 @@ RUN dnf install -y \
 	drm-utils \
 	dtc \
 	dwarves \
+	edid-decode \
 	elfutils-libelf-devel \
 	emacs \
 	flex \
@@ -48,4 +49,5 @@ RUN dnf install -y \
 	rpmdevtools \
 	swig \
 	uboot-tools \
+	v4l-utils \
 	vim-enhanced
