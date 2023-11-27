@@ -34,6 +34,7 @@ RUN dnf install -y \
 	git-filter-repo \
 	lld \
 	make \
+	meson \
 	msmtp \
 	ncurses-devel \
 	openssl \
