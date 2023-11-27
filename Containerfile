@@ -39,6 +39,7 @@ RUN dnf install -y \
 	ncurses-devel \
 	openssl \
 	openssl-devel \
+	patch \
 	picocom \
 	python-cryptography \
 	python-devel \
