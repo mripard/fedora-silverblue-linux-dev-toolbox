@@ -2,6 +2,11 @@ ARG FEDORA_MAJOR_VERSION=39
 
 FROM registry.fedoraproject.org/fedora-toolbox:${FEDORA_MAJOR_VERSION}
 
+RUN rpm --import https://packages.microsoft.com/keys/microsoft.asc
+
+COPY vscode.repo /etc/yum.repos.d/
+
+RUN dnf check-update
 RUN dnf install -y \
 	autoconf \
 	automake \
@@ -9,6 +14,7 @@ RUN dnf install -y \
 	bison \
 	clang-devel \
 	coccinelle \
+	code \
 	cpio \
 	dfu-util \
 	dtc \
