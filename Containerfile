@@ -43,6 +43,7 @@ RUN dnf install -y \
 	python-cryptography \
 	python-devel \
 	python-jsonschema \
+	python-pyelftools \
 	python-setuptools \
 	qemu-system-aarch64 \
 	qemu-system-arm \
